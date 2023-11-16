@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28747A22B05D1F3006A23B6 /* PendulumStimuliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28747A12B05D1F3006A23B6 /* PendulumStimuliApp.swift */; };
+		E28747A42B05D1F3006A23B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28747A32B05D1F3006A23B6 /* ContentView.swift */; };
+		E28747A62B05D1F4006A23B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28747A52B05D1F4006A23B6 /* Assets.xcassets */; };
+		E28747A92B05D1F4006A23B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28747A82B05D1F4006A23B6 /* Preview Assets.xcassets */; };
+		E28747B42B05D1F5006A23B6 /* PendulumStimuliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28747B32B05D1F5006A23B6 /* PendulumStimuliTests.swift */; };
+		E28747BE2B05D1F5006A23B6 /* PendulumStimuliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28747BD2B05D1F5006A23B6 /* PendulumStimuliUITests.swift */; };
+		E28747C02B05D1F5006A23B6 /* PendulumStimuliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28747BF2B05D1F5006A23B6 /* PendulumStimuliUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28747B02B05D1F5006A23B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28747962B05D1F3006A23B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E287479D2B05D1F3006A23B6;
+			remoteInfo = PendulumStimuli;
+		};
+		E28747BA2B05D1F5006A23B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28747962B05D1F3006A23B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E287479D2B05D1F3006A23B6;
+			remoteInfo = PendulumStimuli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E287479E2B05D1F3006A23B6 /* PendulumStimuli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PendulumStimuli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28747A12B05D1F3006A23B6 /* PendulumStimuliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumStimuliApp.swift; sourceTree = "<group>"; };
+		E28747A32B05D1F3006A23B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E28747A52B05D1F4006A23B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28747A82B05D1F4006A23B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E28747AA2B05D1F4006A23B6 /* PendulumStimuli.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PendulumStimuli.entitlements; sourceTree = "<group>"; };
+		E28747AF2B05D1F5006A23B6 /* PendulumStimuliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendulumStimuliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28747B32B05D1F5006A23B6 /* PendulumStimuliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumStimuliTests.swift; sourceTree = "<group>"; };
+		E28747B92B05D1F5006A23B6 /* PendulumStimuliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendulumStimuliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28747BD2B05D1F5006A23B6 /* PendulumStimuliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumStimuliUITests.swift; sourceTree = "<group>"; };
+		E28747BF2B05D1F5006A23B6 /* PendulumStimuliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumStimuliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E287479B2B05D1F3006A23B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28747AC2B05D1F5006A23B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28747B62B05D1F5006A23B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28747952B05D1F3006A23B6 = {
+			isa = PBXGroup;
+			children = (
+				E28747A02B05D1F3006A23B6 /* PendulumStimuli */,
+				E28747B22B05D1F5006A23B6 /* PendulumStimuliTests */,
+				E28747BC2B05D1F5006A23B6 /* PendulumStimuliUITests */,
+				E287479F2B05D1F3006A23B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E287479F2B05D1F3006A23B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E287479E2B05D1F3006A23B6 /* PendulumStimuli.app */,
+				E28747AF2B05D1F5006A23B6 /* PendulumStimuliTests.xctest */,
+				E28747B92B05D1F5006A23B6 /* PendulumStimuliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28747A02B05D1F3006A23B6 /* PendulumStimuli */ = {
+			isa = PBXGroup;
+			children = (
+				E28747A12B05D1F3006A23B6 /* PendulumStimuliApp.swift */,
+				E28747A32B05D1F3006A23B6 /* ContentView.swift */,
+				E28747A52B05D1F4006A23B6 /* Assets.xcassets */,
+				E28747AA2B05D1F4006A23B6 /* PendulumStimuli.entitlements */,
+				E28747A72B05D1F4006A23B6 /* Preview Content */,
+			);
+			path = PendulumStimuli;
+			sourceTree = "<group>";
+		};
+		E28747A72B05D1F4006A23B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E28747A82B05D1F4006A23B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E28747B22B05D1F5006A23B6 /* PendulumStimuliTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28747B32B05D1F5006A23B6 /* PendulumStimuliTests.swift */,
+			);
+			path = PendulumStimuliTests;
+			sourceTree = "<group>";
+		};
+		E28747BC2B05D1F5006A23B6 /* PendulumStimuliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28747BD2B05D1F5006A23B6 /* PendulumStimuliUITests.swift */,
+				E28747BF2B05D1F5006A23B6 /* PendulumStimuliUITestsLaunchTests.swift */,
+			);
+			path = PendulumStimuliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E287479D2B05D1F3006A23B6 /* PendulumStimuli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28747C32B05D1F5006A23B6 /* Build configuration list for PBXNativeTarget "PendulumStimuli" */;
+			buildPhases = (
+				E287479A2B05D1F3006A23B6 /* Sources */,
+				E287479B2B05D1F3006A23B6 /* Frameworks */,
+				E287479C2B05D1F3006A23B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PendulumStimuli;
+			productName = PendulumStimuli;
+			productReference = E287479E2B05D1F3006A23B6 /* PendulumStimuli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28747AE2B05D1F5006A23B6 /* PendulumStimuliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28747C62B05D1F5006A23B6 /* Build configuration list for PBXNativeTarget "PendulumStimuliTests" */;
+			buildPhases = (
+				E28747AB2B05D1F5006A23B6 /* Sources */,
+				E28747AC2B05D1F5006A23B6 /* Frameworks */,
+				E28747AD2B05D1F5006A23B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28747B12B05D1F5006A23B6 /* PBXTargetDependency */,
+			);
+			name = PendulumStimuliTests;
+			productName = PendulumStimuliTests;
+			productReference = E28747AF2B05D1F5006A23B6 /* PendulumStimuliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28747B82B05D1F5006A23B6 /* PendulumStimuliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28747C92B05D1F5006A23B6 /* Build configuration list for PBXNativeTarget "PendulumStimuliUITests" */;
+			buildPhases = (
+				E28747B52B05D1F5006A23B6 /* Sources */,
+				E28747B62B05D1F5006A23B6 /* Frameworks */,
+				E28747B72B05D1F5006A23B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28747BB2B05D1F5006A23B6 /* PBXTargetDependency */,
+			);
+			name = PendulumStimuliUITests;
+			productName = PendulumStimuliUITests;
+			productReference = E28747B92B05D1F5006A23B6 /* PendulumStimuliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28747962B05D1F3006A23B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E287479D2B05D1F3006A23B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E28747AE2B05D1F5006A23B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E287479D2B05D1F3006A23B6;
+					};
+					E28747B82B05D1F5006A23B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E287479D2B05D1F3006A23B6;
+					};
+				};
+			};
+			buildConfigurationList = E28747992B05D1F3006A23B6 /* Build configuration list for PBXProject "PendulumStimuli" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E28747952B05D1F3006A23B6;
+			productRefGroup = E287479F2B05D1F3006A23B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E287479D2B05D1F3006A23B6 /* PendulumStimuli */,
+				E28747AE2B05D1F5006A23B6 /* PendulumStimuliTests */,
+				E28747B82B05D1F5006A23B6 /* PendulumStimuliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E287479C2B05D1F3006A23B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28747A92B05D1F4006A23B6 /* Preview Assets.xcassets in Resources */,
+				E28747A62B05D1F4006A23B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28747AD2B05D1F5006A23B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28747B72B05D1F5006A23B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E287479A2B05D1F3006A23B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28747A42B05D1F3006A23B6 /* ContentView.swift in Sources */,
+				E28747A22B05D1F3006A23B6 /* PendulumStimuliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28747AB2B05D1F5006A23B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28747B42B05D1F5006A23B6 /* PendulumStimuliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28747B52B05D1F5006A23B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28747C02B05D1F5006A23B6 /* PendulumStimuliUITestsLaunchTests.swift in Sources */,
+				E28747BE2B05D1F5006A23B6 /* PendulumStimuliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28747B12B05D1F5006A23B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E287479D2B05D1F3006A23B6 /* PendulumStimuli */;
+			targetProxy = E28747B02B05D1F5006A23B6 /* PBXContainerItemProxy */;
+		};
+		E28747BB2B05D1F5006A23B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E287479D2B05D1F3006A23B6 /* PendulumStimuli */;
+			targetProxy = E28747BA2B05D1F5006A23B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E28747C12B05D1F5006A23B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E28747C22B05D1F5006A23B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E28747C42B05D1F5006A23B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PendulumStimuli/PendulumStimuli.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PendulumStimuli/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeGolem.PendulumStimuli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E28747C52B05D1F5006A23B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PendulumStimuli/PendulumStimuli.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PendulumStimuli/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeGolem.PendulumStimuli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E28747C72B05D1F5006A23B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeGolem.PendulumStimuliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendulumStimuli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PendulumStimuli";
+			};
+			name = Debug;
+		};
+		E28747C82B05D1F5006A23B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeGolem.PendulumStimuliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendulumStimuli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PendulumStimuli";
+			};
+			name = Release;
+		};
+		E28747CA2B05D1F5006A23B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeGolem.PendulumStimuliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PendulumStimuli;
+			};
+			name = Debug;
+		};
+		E28747CB2B05D1F5006A23B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoffeeGolem.PendulumStimuliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PendulumStimuli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28747992B05D1F3006A23B6 /* Build configuration list for PBXProject "PendulumStimuli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28747C12B05D1F5006A23B6 /* Debug */,
+				E28747C22B05D1F5006A23B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28747C32B05D1F5006A23B6 /* Build configuration list for PBXNativeTarget "PendulumStimuli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28747C42B05D1F5006A23B6 /* Debug */,
+				E28747C52B05D1F5006A23B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28747C62B05D1F5006A23B6 /* Build configuration list for PBXNativeTarget "PendulumStimuliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28747C72B05D1F5006A23B6 /* Debug */,
+				E28747C82B05D1F5006A23B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28747C92B05D1F5006A23B6 /* Build configuration list for PBXNativeTarget "PendulumStimuliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28747CA2B05D1F5006A23B6 /* Debug */,
+				E28747CB2B05D1F5006A23B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E28747962B05D1F3006A23B6 /* Project object */;
+}
